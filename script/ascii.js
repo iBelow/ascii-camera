@@ -4,8 +4,9 @@ var ascii = (function() {
 	function asciiFromCanvas(canvas, options) {
 		// Original code by Jacob Seidelin (http://www.nihilogic.dk/labs/jsascii/)
 		// Heavily modified by Andrei Gheorghe (http://github.com/idevelop)
-
-		var characters = (" .,:;i1tfLCG08@").split("");
+		
+        	//var characters = (" .,:;i1tfLCG08@").split("");
+        	var characters = ("01").split("");
 
 		var context = canvas.getContext("2d");
 		var canvasWidth = canvas.width;
